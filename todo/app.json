@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "todo",
+    "slug": "todo",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/sexy.jpg",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/sexy.jpg",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.fishmale.todo"
+    },
+    "web": {
+      "favicon": "./assets/sexy.jpg"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "12c8f1fe-7aa5-4f74-96ae-3d2e7b2c3329"
+      }
+    }
+  }
+}
